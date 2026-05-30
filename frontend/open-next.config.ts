@@ -10,15 +10,6 @@ const config: OpenNextConfig = {
       queue: "dummy",
     },
   },
-
-  middleware: {
-    external: true,
-    override: {
-      wrapper: "cloudflare-edge",
-      converter: "edge",
-      proxyExternalRequest: "fetch",
-    },
-  },
 };
 
 export default config;
