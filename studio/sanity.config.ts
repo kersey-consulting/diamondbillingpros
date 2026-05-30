@@ -15,7 +15,7 @@ const dataset = process.env.SANITY_STUDIO_DATASET!
 
 export default defineConfig({
   name: 'default',
-  title: 'Page Builder Studio',
+  title: 'Diamond Billing Studio',
 
   projectId,
   dataset,
